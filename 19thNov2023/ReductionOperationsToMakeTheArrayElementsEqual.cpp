@@ -36,3 +36,10 @@ public:
         return sum;
     }
 };
+
+int main() {
+    Solution s;
+    std::vector<int> nums = {5, 1, 3};
+    cout << s.reductionOperations(nums) << endl;
+    return 0;
+}
